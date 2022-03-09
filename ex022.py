@@ -1,0 +1,8 @@
+print('Analisador de Texto')
+nome = str(input('Insira aqui o seu nome completo: ')).strip()
+print('Analisando o seu nome...')
+print(f'Seu nome em maiúsculas é {nome.upper()}')
+print(f'Seu nome em minúsculas é {nome.lower()}')
+print('Seu nome tem um total de {} letras'.format(len(nome) - nome.count(' ')))
+separa = nome.split()
+print('Seu primeiro nome é {} e ele tem {} letras'.format(separa[0], len(separa[0])))
